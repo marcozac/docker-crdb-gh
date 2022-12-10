@@ -1,0 +1,15 @@
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+
+[*.sh]
+shell_variant = bash
+
+[Dockerfile]
+shell_variant = posix
+
+[*.{yml,yaml}]
+indent_size = 2
